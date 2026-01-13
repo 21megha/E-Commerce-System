@@ -1,0 +1,10 @@
+| Test Case | Description             | Input                    | Expected Result                     | Status |
+| --------- | ----------------------- | ------------------------ | ----------------------------------- | ------ |
+| TC-01     | Add Electronics Product | Product details via menu | Product added to cart with discount | ✅ Pass |
+| TC-02     | Add Clothing Product    | Clothing details         | Correct 15% discount applied        | ✅ Pass |
+| TC-03     | Add Book Product        | Book details             | Correct 5% discount applied         | ✅ Pass |
+| TC-04     | View Shopping Cart      | Cart with multiple items | Accurate total displayed            | ✅ Pass |
+| TC-05     | Quantity Update         | Add same product again   | Quantity updated correctly          | ✅ Pass |
+| TC-06     | Order Placement         | Place order              | GST applied & order ID generated    | ✅ Pass |
+| TC-07     | Empty Cart              | View cart without items  | Proper empty cart message           | ✅ Pass |
+| TC-08     | Invalid Menu Input      | Wrong option             | Graceful handling                   | ✅ Pass |
