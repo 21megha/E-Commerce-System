@@ -39,6 +39,6 @@ From the project root directory:
 
 javac ecommerce/**/*.java
 
-5️⃣ Run the Application
+5️⃣ Run the Application :
 java ECommerceSystem
 
