@@ -1,0 +1,51 @@
+Product Categories
+
+The system supports the following product types:
+
+1️⃣ Electronics
+Attribute	Description
+Product ID	Unique identifier
+Name	Product name
+Price	Base price
+Description	Product details
+Stock Quantity	Available units
+Brand	Manufacturer
+Warranty	Warranty duration (months)
+Discount	10% of base price
+2️⃣ Clothing
+Attribute	Description
+Product ID	Unique identifier
+Name	Product name
+Price	Base price
+Description	Product details
+Stock Quantity	Available units
+Size	Clothing size
+Color	Clothing color
+Discount	15% of base price
+3️⃣ Books
+Attribute	Description
+Product ID	Unique identifier
+Name	Book title
+Price	Base price
+Description	Book summary
+Stock Quantity	Available copies
+Author	Book author
+Discount	5% of base price  
+
+  lectronics Products (Sample)
+Product ID	Name	Price (₹)	Brand	Warranty (Months)	Stock	Discount
+E101	Laptop	60000	HP	24	5	10%
+E102	Smartphone	25000	Samsung	12	10	10%
+👕 Clothing Products (Sample)
+Product ID	Name	Price (₹)	Size	Color	Stock	Discount
+C201	T-Shirt	1200	M	Black	20	15%
+C202	Jeans	2200	L	Blue	15	15%
+📚 Book Products (Sample)
+Product ID	Name	Price (₹)	Author	Stock	Discount
+B301	Java Basics	800	Herbert Schildt	10	5%
+B302	Clean Code	950	Robert C. Martin	8	5%
+🛒 Sample Cart Data
+Product	Quantity	Final Price (₹)
+Laptop	1	54000
+T-Shirt	2	2040
+Java Basics	1	760
