@@ -1,0 +1,20 @@
+ecommerce/
+│
+├── products/
+│   ├── Product.java
+│   ├── ElectronicsProduct.java
+│   ├── ClothingProduct.java
+│   └── BookProduct.java
+│
+├── cart/
+│   ├── CartItem.java
+│   └── ShoppingCart.java
+│
+├── orders/
+│   ├── Order.java
+│   └── OrderManager.java
+│
+├── customer/
+│   └── Customer.java
+│
+└── ECommerceSystem.java
