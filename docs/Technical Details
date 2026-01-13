@@ -1,0 +1,90 @@
+Technical Details
+Programming Language
+
+Java (JDK 8+)
+
+Core Concepts Used
+
+Object-Oriented Programming (OOP)
+
+Abstraction (abstract Product class)
+
+Inheritance (ElectronicsProduct, ClothingProduct, BookProduct)
+
+Polymorphism (dynamic discount calculation using overridden methods)
+
+Encapsulation (private fields with controlled access)
+
+Architecture & Design
+
+Layered package-based structure for modularity:
+
+products – product hierarchy and business logic
+
+cart – shopping cart and cart item management
+
+orders – order processing and GST calculation
+
+customer – customer and cart association
+
+Menu-driven console application
+
+Loose coupling between components using object composition
+
+Data Structures
+
+ArrayList
+
+Used for managing cart items and orders
+
+Custom objects
+
+Product, CartItem, Order, Customer
+
+Functional Features
+
+Category-based discount calculation using polymorphism
+
+Dynamic user input using Scanner
+
+Shopping cart operations:
+
+Add products
+
+Update quantities
+
+Calculate totals
+
+Order management
+
+Unique order ID generation
+
+GST (18%) calculation
+
+Stateless order processing
+
+Exception Handling
+
+Basic input handling using Java Scanner
+
+Can be extended to handle invalid inputs and stock validation
+
+Tools & Environment
+
+IDE: IntelliJ IDEA / Eclipse / VS Code
+
+Version Control: Git & GitHub
+
+Build Tool: Java compiler (javac)
+
+Extensibility
+
+Easy to extend with:
+
+Database integration (JDBC)
+
+REST APIs (Spring Boot)
+
+Web UI (HTML/CSS/JS)
+
+Payment gateway integration
